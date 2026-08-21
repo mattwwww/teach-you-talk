@@ -1,0 +1,98 @@
+[
+  {
+    "id": "boss_w1",
+    "week": 1,
+    "title": "三句對話王",
+    "description": "同一個陌生人完成三個來回嘅對話。可以係問路、買嘢、或者任何真實情況。",
+    "reward": 50,
+    "requirement": "完成至少三句嘅真實對話"
+  },
+  {
+    "id": "boss_w2",
+    "week": 2,
+    "title": "茶餐廳征服者",
+    "description": "係茶餐廳落單、等嘢食、然後埋單，全程主動開口，唔等人問你。",
+    "reward": 50,
+    "requirement": "主動落單 + 主動叫埋單"
+  },
+  {
+    "id": "boss_w3",
+    "week": 3,
+    "title": "問路英雄",
+    "description": "向兩個唔同嘅陌生人問路，並且多謝佢哋。",
+    "reward": 60,
+    "requirement": "問兩次路 + 道謝"
+  },
+  {
+    "id": "boss_w4",
+    "week": 4,
+    "title": "閒聊大師",
+    "description": "同任何人（收銀員、同學、鄰居）展開一段三句或以上嘅閒聊，話題唔限。",
+    "reward": 75,
+    "requirement": "三句或以上嘅閒聊"
+  },
+  {
+    "id": "boss_w5",
+    "week": 5,
+    "title": "超市探索家",
+    "description": "去超市時主動問兩次工作人員：一次問位置，一次問推薦。",
+    "reward": 55,
+    "requirement": "問位置 + 問推薦各一次"
+  },
+  {
+    "id": "boss_w6",
+    "week": 6,
+    "title": "升降機社交王",
+    "description": "係升降機遇到鄰居，主動打招呼並傾多過一句，例如問對方去邊或者講天氣。",
+    "reward": 60,
+    "requirement": "升降機內主動傾兩句"
+  },
+  {
+    "id": "boss_w7",
+    "week": 7,
+    "title": "公園同行者",
+    "description": "係公園主動幫助一個陌生人，或者接受陌生人嘅幫助並道謝。",
+    "reward": 65,
+    "requirement": "公園內完成一次真實互動"
+  },
+  {
+    "id": "boss_w8",
+    "week": 8,
+    "title": "書店奇遇",
+    "description": "去書店問店員推薦一本書，聆聽佢嘅答案，並且多謝佢。",
+    "reward": 70,
+    "requirement": "問推薦 + 道謝"
+  },
+  {
+    "id": "boss_w9",
+    "week": 9,
+    "title": "讚美挑戰",
+    "description": "今週讚美三個唔同嘅人。可以係朋友、陌生人、或者服務員。真心話出口。",
+    "reward": 75,
+    "requirement": "真誠讚美三個人"
+  },
+  {
+    "id": "boss_w10",
+    "week": 10,
+    "title": "主動傾偈王",
+    "description": "主動向一個唔熟悉嘅人開展對話，並且傾超過兩分鐘。",
+    "reward": 80,
+    "requirement": "主動開口 + 對話持續兩分鐘"
+  },
+  {
+    "id": "boss_w11",
+    "week": 11,
+    "title": "分享快樂",
+    "description": "同三個人分享一件最近令你高興嘅事，並留意對方嘅反應。",
+    "reward": 80,
+    "requirement": "分享快樂三次"
+  },
+  {
+    "id": "boss_w12",
+    "week": 12,
+    "title": "話王週挑戰",
+    "description": "今週完成五次真實嘅社交互動，每次至少三句。記錄你最難忘嘅一次。",
+    "reward": 100,
+    "requirement": "五次三句或以上嘅真實互動"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  { "id": "s1", "template": "我覺得___", "example": "我覺得呢個幾好食。" },
+  { "id": "s2", "template": "係喎，不過___", "example": "係喎，不過我未試過。" },
+  { "id": "s3", "template": "唔知喎，可能___", "example": "唔知喎，可能要問下人。" },
+  { "id": "s4", "template": "OK，我___先", "example": "OK，我諗吓先。" },
+  { "id": "s5", "template": "唔好意思，___", "example": "唔好意思，可唔可以再講多次？" },
+  { "id": "s6", "template": "唔該，我想___", "example": "唔該，我想問一個問題。" },
+  { "id": "s7", "template": "我唔係好___，不過___", "example": "我唔係好肯定，不過我估係呢個。" },
+  { "id": "s8", "template": "其實___", "example": "其實我有少少緊張。" }
+]

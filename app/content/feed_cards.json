@@ -1,0 +1,292 @@
+[
+  {
+    "id": "fc_01",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "便利店",
+    "scenario": "一個熟客走入便利店，笑住同收銀員講：「老細，今日天氣好熱喎！」收銀員笑住答：「係喎，記得飲多啲水呀！」",
+    "modelResponse": "係喎，飲多啲水好緊要！"
+  },
+  {
+    "id": "fc_02",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "便利店",
+    "scenario": "收銀員問你：「今日係唔係好熱呀？」",
+    "prompt": "你會點答？",
+    "minWords": 3,
+    "scaffolds": ["係喎，熱到出晒汗", "係呀，幸好有冷氣", "唔係太熱，我覺得OK"]
+  },
+  {
+    "id": "fc_03",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "茶餐廳",
+    "scenario": "一個客人坐低，伙計走嚟問：「食乜嘢呀？」客人話：「要一個西多士同杯凍奶茶，少甜。」伙計記低之後話：「好，等陣先。」",
+    "modelResponse": "要一個西多士同杯凍奶茶，少甜，唔該。"
+  },
+  {
+    "id": "fc_04",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "茶餐廳",
+    "scenario": "伙計問你：「要熱定凍㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 3,
+    "scaffolds": ["凍嘅，少甜，唔該", "要熱嘅喎，唔該", "凍，唔該晒"]
+  },
+  {
+    "id": "fc_05",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "地鐵站",
+    "scenario": "一個旅客攞住地圖，問旁邊嘅人：「唔好意思，請問去尖沙咀要係邊個站落？」旁邊嘅人笑住答：「你搭荃灣線，尖沙咀站落就得喇。」",
+    "modelResponse": "你搭荃灣線，尖沙咀站落就得喇。"
+  },
+  {
+    "id": "fc_06",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "地鐵站",
+    "scenario": "有個老婆婆問你：「請問去銅鑼灣係唔係搭呢班車？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["係㗎，呢班直達", "唔係喎，要轉線㗎", "我唔肯定，你問站務員好啲"]
+  },
+  {
+    "id": "fc_07",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "課室",
+    "scenario": "同學問你：「你有冇做咗功課㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["做咗喇，但係唔識做最後題", "冇喎，你有冇做？", "做咗，但係唔知岩唔岩"]
+  },
+  {
+    "id": "fc_08",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "巴士",
+    "scenario": "兩個陌生人係巴士上，其中一個問：「唔好意思，呢班巴士係咪去旺角㗎？」另一個答：「係㗎，終點站就係旺角。」",
+    "modelResponse": "係㗎，終點站就係旺角。"
+  },
+  {
+    "id": "fc_09",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "巴士",
+    "scenario": "巴士上有個人問你：「呢度係咪有位坐㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 3,
+    "scaffolds": ["有㗎，請坐", "冇喎，有人㗎", "有，你坐囉"]
+  },
+  {
+    "id": "fc_10",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "便利店",
+    "scenario": "你買完嘢，收銀員話：「多謝惠顧，下次再嚟！」",
+    "prompt": "你會點答？",
+    "minWords": 2,
+    "scaffolds": ["唔該，再見", "多謝，拜拜", "好㗎，唔該晒"]
+  },
+  {
+    "id": "fc_11",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "課室",
+    "scenario": "同學借咗你嘅筆，用完之後還返你，仲話：「唔該晒，你幫咗我好大忙！」你答：「冇問題㗎，隨時借。」",
+    "modelResponse": "冇問題㗎，你隨時借得㗎。"
+  },
+  {
+    "id": "fc_12",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "課室",
+    "scenario": "同學問你：「你覺得今次考試難唔難？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["我覺得幾難，特別係___", "唔係好難，不過___要溫熟", "難喎，你呢？"]
+  },
+  {
+    "id": "fc_13",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "超市",
+    "scenario": "你係超市搵唔到一樣嘢，問工作人員：「唔該，請問即食麵喺邊度㗎？」佢答：「係三號貨架，行到盡右手邊就係喇。」",
+    "modelResponse": "唔該，請問即食麵喺邊度㗎？"
+  },
+  {
+    "id": "fc_14",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "超市",
+    "scenario": "超市工作人員問你：「請問需要幫手㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 3,
+    "scaffolds": ["唔該，我搵緊___", "係呀，請問___喺邊？", "唔使喇，我自己搵得到，唔該"]
+  },
+  {
+    "id": "fc_15",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "診所",
+    "scenario": "護士叫你登記：「請問係咪第一次嚟㗎？」你答：「係呀，我係新症。」護士話：「好，請填埋呢張表。」",
+    "modelResponse": "係呀，我係新症，唔該晒。"
+  },
+  {
+    "id": "fc_16",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "診所",
+    "scenario": "醫生問你：「你係咪唔舒服幾耐㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["大概三日喇，主要係___", "由尋日開始，感覺___", "差唔多一個星期，一直都係咁"]
+  },
+  {
+    "id": "fc_17",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "書店",
+    "scenario": "書店店員問你：「你係咪搵緊某本特定嘅書㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["係呀，我搵緊___", "唔係，我只係隨便睇吓", "有㗎，係咪有___呢本？"]
+  },
+  {
+    "id": "fc_18",
+    "type": "passive",
+    "emoji": "🎬",
+    "location": "公園",
+    "scenario": "你坐係公園長椅，隔離嘅陌生人問你：「唔好意思，依家幾點㗎？」你答：「係三點半喇。」",
+    "modelResponse": "係三點半喇，唔該晒問。"
+  },
+  {
+    "id": "fc_19",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "公園",
+    "scenario": "陌生人話：「今日天氣真係好好，難得係香港見到咁嘅天氣！」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["係喎，好難得㗎！", "真係，我都覺得幾舒服", "係呀，出嚟行吓都幾好"]
+  },
+  {
+    "id": "fc_20",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "升降機",
+    "scenario": "你同一個鄰居一齊入升降機，佢對你笑咗笑。",
+    "prompt": "你會點做？講出你嘅行動同說話。",
+    "minWords": 3,
+    "scaffolds": ["笑返佢，講聲「你好」", "點點頭，講聲「早晨」", "對佢微笑，問聲「去幾樓？」"]
+  },
+  {
+    "id": "fc_21",
+    "type": "passive",
+    "emoji": "📚",
+    "location": "書店",
+    "scenario": "一個男生係書店搵唔到書，問店員：「唔該，請問漫畫區係邊度㗎？」店員答：「喺二樓，上去右手邊就係喇。」男生話：「唔該晒！」",
+    "modelResponse": "唔該，漫畫區係邊度呀？"
+  },
+  {
+    "id": "fc_22",
+    "type": "passive",
+    "emoji": "🏢",
+    "location": "升降機",
+    "scenario": "升降機門快關，你見到有人跑嚟，就用手撳住個門。對方走入嚟話：「唔該晒你㗎！」你答：「冇問題，請問去幾樓呀？」",
+    "modelResponse": "冇問題㗎，請問去幾樓？"
+  },
+  {
+    "id": "fc_23",
+    "type": "passive",
+    "emoji": "🍜",
+    "location": "大牌檔",
+    "scenario": "一個街坊行過一個大牌檔，老闆娘大聲叫：「靚仔，食乜呀今晚？」街坊笑住答：「老闆娘，要碗雲吞麵，湯底少鹽！」老闆娘話：「好，等陣㗎！」",
+    "modelResponse": "老闆娘，要碗雲吞麵，少鹽，唔該！"
+  },
+  {
+    "id": "fc_24",
+    "type": "passive",
+    "emoji": "📮",
+    "location": "郵局",
+    "scenario": "一個人入郵局問職員：「唔該，我想寄一個包裹去台灣，要點樣填表㗎？」職員答：「你拎一張國際包裹表格，填埋寄件人同收件人資料就得喇。」",
+    "modelResponse": "唔該，我想寄包裹去台灣，要填乜嘢表格㗎？"
+  },
+  {
+    "id": "fc_25",
+    "type": "passive",
+    "emoji": "🍽️",
+    "location": "餐廳",
+    "scenario": "飯局食完，一班朋友喺度計數。其中一個話：「不如AA制啦，每人二百。」另一個答：「好㗎，我俾埋你，你去找數吧。」",
+    "modelResponse": "好，AA制囉，我俾埋你，你去找數吧。"
+  },
+  {
+    "id": "fc_26",
+    "type": "passive",
+    "emoji": "📖",
+    "location": "課室",
+    "scenario": "下課後，一個同學走去問老師：「老師，呢條題我唔明，可唔可以再解釋一次？」老師笑住答：「當然可以，你係唔明哪個部分㗎？」",
+    "modelResponse": "老師，唔好意思，呢條題我唔太明，可唔可以再解釋吓？"
+  },
+  {
+    "id": "fc_27",
+    "type": "passive",
+    "emoji": "🏦",
+    "location": "銀行",
+    "scenario": "一個客人係銀行門口問保安：「唔該，入面有ATM機㗎？」保安答：「有㗎，入到去右手邊就係喇。」",
+    "modelResponse": "唔該，入面有ATM機㗎？"
+  },
+  {
+    "id": "fc_28",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "茶餐廳",
+    "scenario": "你食完飯，覺得今日嘅菜式特別好食，想讚一讚老闆。",
+    "prompt": "你會點讚佢？",
+    "minWords": 4,
+    "scaffolds": ["今日嘅菜式好好食喎，廚師好叻！", "老細，今日嘅___好好味！", "真係好食，下次再嚟！"]
+  },
+  {
+    "id": "fc_29",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "街上",
+    "scenario": "你迷路了，搵唔到去油麻地地鐵站嘅路。你見到一個路人。",
+    "prompt": "你會點問路？",
+    "minWords": 5,
+    "scaffolds": ["唔好意思，請問去油麻地站係咪呢個方向？", "你好，我搵油麻地地鐵站，請問係邊度㗎？", "唔該，油麻地站係咪附近㗎？"]
+  },
+  {
+    "id": "fc_30",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "課室",
+    "scenario": "老師問全班：「你哋覺得網上學習好唔好呀？」輪到你回答。",
+    "prompt": "你會點答？",
+    "minWords": 6,
+    "scaffolds": ["我覺得都幾好，可以自己掌握時間", "我覺得唔係好，難以集中注意力", "有好有唔好，好處係___，但係___"]
+  },
+  {
+    "id": "fc_31",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "便利店",
+    "scenario": "收銀員找錯咗錢俾你，多找了十蚊。你想指出呢個錯誤。",
+    "prompt": "你會點講？",
+    "minWords": 5,
+    "scaffolds": ["唔好意思，你好似找多咗十蚊喎", "等等，我諗你找錯錢喇，多咗十蚊", "你有無數錯？我覺得多咗錢"]
+  },
+  {
+    "id": "fc_32",
+    "type": "interactive",
+    "emoji": "💬",
+    "location": "公園",
+    "scenario": "你帶咗自己養嘅狗出嚟散步，有個路人走過嚟話：「你隻狗好可愛呀！係乜嘢品種㗎？」",
+    "prompt": "你會點答？",
+    "minWords": 4,
+    "scaffolds": ["唔該，佢係___，叫___", "多謝！佢係___，好識玩㗎", "謝謝，係___，養咗___年喇"]
+  }
+]

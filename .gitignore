@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+web-dist/
+app/.git-backup/
+.claude/
+.DS_Store
+.env
+.env.*
+!.env.example
+initial prompt

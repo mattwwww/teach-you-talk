@@ -1,0 +1,16 @@
+{
+  "name": "teach-you-talk-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node serve-web.mjs",
+    "build:web": "npm --prefix app run build:web",
+    "dev": "npm --prefix app run web",
+    "android": "npm --prefix app run android",
+    "ios": "npm --prefix app run ios",
+    "web": "npm --prefix app run web",
+    "typecheck": "npm --prefix app run typecheck",
+    "build": "npm --prefix app run build",
+    "install:app": "npm --prefix app install"
+  }
+}

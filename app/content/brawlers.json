@@ -1,0 +1,37 @@
+[
+  {
+    "id": "stranger_zero",
+    "name": "啞仔阿強",
+    "emoji": "😶",
+    "description": "成日唔出聲，but 有潛力",
+    "unlockAt": 0
+  },
+  {
+    "id": "neighbour_king",
+    "name": "街坊王",
+    "emoji": "👴",
+    "description": "識同左鄰右里傾兩句",
+    "unlockAt": 30
+  },
+  {
+    "id": "cct_regular",
+    "name": "茶餐廳熟客",
+    "emoji": "☕",
+    "description": "伙記見到你就知你要乜",
+    "unlockAt": 100
+  },
+  {
+    "id": "mtr_pro",
+    "name": "地鐵通",
+    "emoji": "🚇",
+    "description": "問路答路，樣樣得",
+    "unlockAt": 250
+  },
+  {
+    "id": "talk_king",
+    "name": "話王",
+    "emoji": "👑",
+    "description": "同陌生人傾得起，唔驚㗎喇",
+    "unlockAt": 500
+  }
+]

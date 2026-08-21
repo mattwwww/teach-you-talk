@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "開口啦",
+    "slug": "teach-you-talk",
+    "version": "1.0.0",
+    "scheme": "teachyoutalk",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F3EA"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.teachyoutalk.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "開口啦需要使用咪高峰，等你錄低練習句子同重聽。",
+        "NSSpeechRecognitionUsageDescription": "開口啦會在你同意後使用語音功能協助你練習完整句子。"
+      }
+    },
+    "android": {
+      "package": "com.teachyoutalk.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F3EA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "畀開口啦使用咪高峰，等你可以錄低練習。"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
